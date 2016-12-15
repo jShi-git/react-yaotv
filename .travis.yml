@@ -3,10 +3,13 @@ language:
 node_js:
   - "6"
 before_script:
+  - npm install -g yarn
   - yarn
 script:
   - npm dll
   - npm webpack
+cache:
+  yarn: true
 notifications:
   webhooks:
     'https://hook.bearychat.com/=bw8UF/travis/a41f37fe322a38c11ecb7945d976d007'
