@@ -1,3 +1,5 @@
-language:javascript
+language:
+  'javascript'
 notifications:
-  webhooks: https://hook.bearychat.com/=bw8UF/travis/a41f37fe322a38c11ecb7945d976d007
+  webhooks:
+    'https://hook.bearychat.com/=bw8UF/travis/a41f37fe322a38c11ecb7945d976d007'
