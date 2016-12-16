@@ -6,8 +6,8 @@ before_script:
   - npm install -g yarn
   - yarn
 script:
-  - npm dll
-  - npm webpack
+  - npm run dll
+  - npm run webpack
 cache:
   yarn: true
 notifications:
